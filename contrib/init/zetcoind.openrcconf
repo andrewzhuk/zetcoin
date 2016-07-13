@@ -1,0 +1,27 @@
+# /etc/conf.d/zetcoind: config file for /etc/init.d/zetcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/zetcoin/zetcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/zetcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zetcoind.pid"
+
+# Where to write zetcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zetcoind"
+
+# User and group to own zetcoind process
+#BITCOIND_USER="zetcoin"
+#BITCOIND_GROUP="zetcoin"
+
+# Path to zetcoind executable
+#BITCOIND_BIN="/usr/bin/zetcoind"
+
+# Nice value to run zetcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+

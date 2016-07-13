@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zetcoin_bg.qm</file>
+        <file alias="de">locale/zetcoin_de.qm</file>
+        <file alias="en">locale/zetcoin_en.qm</file>
+        <file alias="es">locale/zetcoin_es.qm</file>
+        <file alias="fi">locale/zetcoin_fi.qm</file>
+        <file alias="fr">locale/zetcoin_fr.qm</file>
+        <file alias="it">locale/zetcoin_it.qm</file>
+        <file alias="ja">locale/zetcoin_ja.qm</file>
+        <file alias="pl">locale/zetcoin_pl.qm</file>
+        <file alias="pt">locale/zetcoin_pt.qm</file>
+        <file alias="ru">locale/zetcoin_ru.qm</file>
+        <file alias="sk">locale/zetcoin_sk.qm</file>
+        <file alias="sv">locale/zetcoin_sv.qm</file>
+        <file alias="vi">locale/zetcoin_vi.qm</file>
+        <file alias="zh_CN">locale/zetcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zetcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
